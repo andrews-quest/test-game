@@ -86,6 +86,7 @@ if (xspd == 0 && yspd == 0){
 	audio_stop_sound(snd_footsteps);
 }else{
 	audio_play_sound(snd_footsteps, 0, true);
+
 }
 
 sprite_index = sprite[face];

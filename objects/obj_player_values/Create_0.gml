@@ -1,2 +1,4 @@
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 draw_set_font(fnt_values_font);
-draw_text(x, y, "Speed\nX:" + (global.xspd + global.xinert) + "\nY:" + (global.yspd + global.yinert));

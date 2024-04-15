@@ -21,3 +21,5 @@ sprite[LEFT] = spr_player_left;
 sprite[IDLE] = spr_player_idle;
 
 face = IDLE;
+
+instance_create_depth(0, 0, -900, obj_player_values);

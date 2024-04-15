@@ -89,3 +89,6 @@ if (xspd == 0 && yspd == 0){
 }
 
 sprite_index = sprite[face];
+
+//depth
+depth = -bbox_bottom;
